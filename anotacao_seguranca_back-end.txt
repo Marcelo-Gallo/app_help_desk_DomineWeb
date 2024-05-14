@@ -1,0 +1,3 @@
+O arquivo público do xampp é o htdocs, quando eu tiro um arquivo de dentro dele, estou tirando o acesso em vista da aplicação dele. Em outras palavras, não consigo acessar ele pelo navegador.
+
+O arquivo.txt trabalhado para os chamados serve de pivô em relação a horientação do interpretado para a abertura dele. É relativo à posição do arquivo no sistema.

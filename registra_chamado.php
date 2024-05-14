@@ -12,7 +12,7 @@
     //PHP_EOL ->php end of line
 
     //abrindo arquivo
-    $arquivo = fopen('arquivo.txt', 'a');
+    $arquivo = fopen('../../app_help_desk/arquivo.txt', 'a');
     //escrevendo arquivo
     fwrite($arquivo, $texto);
     //fechando arquivo

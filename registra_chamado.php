@@ -1,12 +1,14 @@
 <?php
 
+    session_start();
+
     //trabalhando a montagem do texto
     $titulo = str_replace('#', '-', $_POST['titulo']);
     $categoria = str_replace('#', '-', $_POST['categoria']);
     $descricao = str_replace('#', '-', $_POST['descricao']);
     //implode(#, $_POST); -> poderia ser usado como alternativa
 
-    $texto = $titulo . '#' . $categoria . '#' . $descricao . PHP_EOL;
+    $texto = $_SESSION['id'] . '#' . $titulo . '#' . $categoria . '#' . $descricao . PHP_EOL;
     //PHP_EOL ->php end of line
 
     //abrindo arquivo

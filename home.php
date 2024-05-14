@@ -1,6 +1,8 @@
 <?php
 
-  require_once "validador_acesso.php";
+  require_once "validador_acesso.php"; //este script já faz o session_start();
+
+  //session_start();
 
 ?>
 <html>
@@ -28,7 +30,7 @@
       </a>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a href="nav-link" href="logoff.php">SAIR</a>
+          <a class="nav-link" href="logoff.php">SAIR</a>
         </li>
       </ul>
     </nav>

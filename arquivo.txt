@@ -1,2 +1,2 @@
-Teste de chamado#Software#Este é um teste de criação de chamado usando um arquivo pelos métodos fopen(), fwrite() e fclose().
-Teste de chamado 2#Rede#Este é um teste de criação de chamado usando uma constante do PHP chamada PHP_EOL
+3#Chamado jose#Criação Usuário#jose
+4#Chamado maria#Criação Usuário#Maria
